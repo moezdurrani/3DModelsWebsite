@@ -1,0 +1,116 @@
+*{
+    top: 0;
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+   
+}
+nav{
+    top: 0;
+    align-items: center;
+    justify-content: space-between;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgb(57, 57, 57) 0%, rgb(101, 101, 102) 45%, rgb(56, 57, 57) 80%, rgb(101, 101, 102) 100%);
+    padding: 5px 5%;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+    border-bottom: solid 2px var(--body-color);
+
+}
+
+.container{
+    margin-top:4%;
+    padding: 13px 1%;
+    display: flex;
+    position: sticky;
+}
+.href{
+    font-style: none;
+    font-weight: bold;
+    color: white;
+    font-family: Helvetica, sans-serif;
+    font-size: 17px;
+}
+.left{
+    margin-top:7%;
+    width: 80%;
+    height: 800px;
+    float: left;
+    position: fixed;
+    border-radius: 15px;
+    border-radius: 6px solid black;
+    border-bottom-right-radius:15px ;
+}
+.nav-left{
+float: left;
+}
+.nav-right{
+    float: right;
+    margin-right: -2%;
+}
+.right{
+    margin-top: 2%;
+    margin-left: 80%;
+    width: 25%;
+    float: right;
+    overflow: scroll;
+    align-items: center;
+}
+.right::-webkit-scrollbar {
+    display: none;
+  }
+  ::-webkit-scrollbar {
+    display: none;
+  }
+
+.left .bigArea iframe{
+    height:750px;
+    width:97%;
+    border-radius: 15px;
+    border-bottom-right-radius:15px ;
+}
+.post-container img{
+    width: 150px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0, 0.5) ;
+}
+.post-container{
+    margin-left: 5%;
+    width: 50%;
+    border-radius: 6px;
+}
+p{
+    font-weight: bold;
+    color: white;
+    font-family: Helvetica, sans-serif;
+    font-size: 17px;
+}
+
+.detail{
+    margin-top:0px;
+    max-width: 800px;
+    margin-left: 30%;
+    align-items: center;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0, 0.5) ;
+    position: fixed;
+    top: 50px;
+}
+
+
+h1{
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: rgb(75, 73, 73);
+    font-family: Helvetica, sans-serif;
+}
