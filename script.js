@@ -32,3 +32,11 @@ function fun7(){
     document.getElementById("bigA").src = 'ninja/index.html';
     document.getElementById("detail").innerHTML = "Ninja Blade";
 }
+
+
+// // Get references to the left and right divs
+// const leftDiv = document.querySelector('.left');
+// const rightDiv = document.querySelector('.right');
+
+// // Set the right div's height to match the left div's height
+// rightDiv.style.height = leftDiv.clientHeight + 'px';
