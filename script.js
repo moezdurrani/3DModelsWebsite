@@ -10,7 +10,7 @@ function fun2(){
 
 function fun3(){
     document.getElementById("bigA").src = 'board/index.html';
-    document.getElementById("detail").innerHTML = "Power Genrating Skateboard";
+    document.getElementById("detail").innerHTML = "Power Generating Skateboard";
 }
 
 function fun4(){
@@ -31,6 +31,11 @@ function fun6(){
 function fun7(){
     document.getElementById("bigA").src = 'ninja/index.html';
     document.getElementById("detail").innerHTML = "Ninja Blade";
+}
+
+function fun8(){
+    document.getElementById("bigA").src = 'AutoCar/index.html';
+    document.getElementById("detail").innerHTML = "Autonomous Car";
 }
 
 
